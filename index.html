@@ -24,7 +24,7 @@
 
   <section id="home" class="hero">
     <div class="hero-content">
-      <h2> Foco.força e discilina 
+      <h2> Foco,força e disciplina</h2>
       <p>Aprenda a arte das oito armas com Professor Fael.</p>
       <a href="#contato" class="btn">Inscreva-se Agora</a>
     </div>
@@ -36,8 +36,21 @@
       É uma prática que desenvolve corpo, mente e espírito, promovendo disciplina e autoconfiança.</p>
   </section>
 
+       <section id="classes">
+        <h1> Sobre aulas de Muay Thai</h1>
+        <p>Oferecemos aulas para todos os níveis, desde iniciantes até lutadores avançados. As aulas focam no condicionamento físico, técnicas de combate e defesa pessoal.</p>
+        <button onclick="showClasses()">Saiba mais sobre as aulas</button>
+        <div id="class-info" class="hidden">
+            <ul>
+                <li>Iniciante: Técnicas básicas e condicionamento</li>
+                <li>Intermediário: Combate e estratégias de luta</li>
+                <li>Avançado: Sparring e aperfeiçoamento técnico</li>
+            </ul>
+        </div>
+    </section>
+
   <section id="aulas" class="aulas">
-    <h2>Horários de Aulas</h2>
+    <h1>Horários de Aulas</h1>
     <table>
       <tr>
         <th>Dia</th>
@@ -90,12 +103,49 @@
       <textarea id="mensagem" placeholder="Sua Mensagem" required></textarea>
       <button type="submit" class="btn">Enviar</button>
     </form>
-  </section>
-
-  <footer>
-    <p>© 2025 Muay Thai Warriors - Todos os direitos reservados.</p>
-  </footer>
+  
 
   <script src="script.js"></script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página de Muay Thai</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Muay Thai </h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#classes">Aulas</a></li>
+                <li><a href="#trainers">Treinadores</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   
+    <section id="trainers">
+        <h2>Conheça nosso Treinador</h2>
+        <div class="trainer">
+            <img src="trainer1.jpg" alt="Treinador">
+            <h3>Rafael cordoso</h3>
+            <p>Instrutor com 10 anos de experiência, especializado em técnicas de Muay Thai e defesa pessoal.</p>
+
+        </div>
+    
+
+    <script src="script.js"></script>
 </body>
 </html>

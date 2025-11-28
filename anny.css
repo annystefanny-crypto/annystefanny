@@ -122,7 +122,7 @@ section {
 }
 
 .galeria img {
-  width: 200px;
+  width: 300px;
   border-radius: 8px;
   transition: 0.3s;
 }
@@ -271,5 +271,6 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
 
 
